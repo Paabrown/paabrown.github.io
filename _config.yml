@@ -12,7 +12,7 @@ safe: true
 
 # edit here to achieve your personal greatness
 url: http://paabrown.github.io/
-baseurl: '/'
+baseurl: http://paulbrown.io/
 title: Paul Brown
 author: Paul Brown
 description: Personal blog and resume
