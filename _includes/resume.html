@@ -2,3 +2,22 @@
     <!-- <a href="/static/pdf/PaulBrownResume.pdf" download>download pdf</a> -->
     <iframe src="http://docs.google.com/gview?url=https://github.com/Paabrown/paabrown.github.io/raw/master/static/pdf/PaulBrownResume.pdf&amp;embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
 </section> 
+
+<script>
+    let li = document.createElement('li');
+    let a = document.createElement('a');
+    let i = document.createElement('i');
+
+    li.appendChild(a);
+    li.appendChild(i);
+
+    a.setAttribute('class', 'navbar-symbol');
+    a.setAttribute('href', '/static/pdf/PaulBrownResume.pdf');
+    a.setAttribute('download', 'true');
+
+    i.setAttribute('class', 'fa fa-download');
+
+    let navList = document.getElementById('navbar-list');
+
+    navList.appendChild(li);
+</script>
